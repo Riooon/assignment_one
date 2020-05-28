@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    height: 150px;
+}
+.button {
+    background-image: url(../img/og.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 30px 50px;
+    transition: 0.3s;
+}
+.button a:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-0.1875em);
+}
